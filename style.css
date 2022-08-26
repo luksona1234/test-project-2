@@ -23,7 +23,7 @@
     animation: animation;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 2s;
 }
 @keyframes animation{
     0%{
@@ -114,6 +114,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    
 }
 
 .box-5{
@@ -141,14 +142,14 @@
     font-size: 32px;
     font-weight: bold;
     color: white;
-    margin-top: 16px;
+    margin-top: 40px;
     margin-left: 0px;
 }
 .p-6{
     font-size: 15px;
     font-weight: bold;
     color: white;
-    margin-top: -17px;
+    margin-top: 50px;
     margin-left: 0px;
 }
 .box-4{
@@ -156,7 +157,7 @@
     height: 44px;
     background-color: cyan;
     border-radius: 22px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 0px;
     text-align: center;
     position: relative;
@@ -544,7 +545,7 @@
 .box-36{
     width: 138.5px;
     height: 159px;
-    margin-top: -45px;
+    margin-top: 0px;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
@@ -553,7 +554,7 @@
 .box-37{
     width: 138.5px;
     height: 159px;
-    margin-top: -82px;
+    margin-top: -240px;
     margin-left: 202px;
     display: flex;
     flex-direction: column;
@@ -584,4 +585,7 @@
 }
 .img-8{
     margin-top: -10px;
+}
+body{
+    overflow-x: hidden;
 }
